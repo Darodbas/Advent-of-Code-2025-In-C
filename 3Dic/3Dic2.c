@@ -72,7 +72,7 @@ int main() {
         }
         
 
-        //Creates the number formed by the two maximum digits and prints it
+        //Creates the number formed by the maximum digits and prints it
         for (int i = 0; i < N; i++)
         {
             combined_number = combined_number + pow(10, N-1-i) * maxv[i];
@@ -90,4 +90,5 @@ int main() {
     printf("\nFinal Sum: %lld\n", sum);
 
     return 0;
+
 }
